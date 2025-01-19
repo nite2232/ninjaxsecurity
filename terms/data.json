@@ -1,0 +1,28 @@
+[
+    {
+      "id": "log-spoofing",
+      "title": "ログ偽装",
+      "description": "ログを改ざんする攻撃手法とその防御策を学びます。",
+      "images": [
+        { "src": "pic1.jpg", "position": "top", "scale": 0.4 },
+        { "src": "pic2.jpg", "position": "top", "scale": 0.1}
+      ],
+      "subheadings": [
+        {
+          "title": "概要",
+          "content": "ログ偽装とは、記録されたデータを改ざんし、システムの動作や記録を欺く手法です。",
+          "images": [
+            { "src": "pic1.jpg", "position": "top", "scale": 0.4}
+          ]
+        },
+        {
+          "title": "防御策",
+          "content": "改ざん検知ツールの導入やログの暗号化が効果的です。",
+          "images": [
+            { "src": "pic2.jpg", "position": "bottom", "scale": 0.4}
+          ]
+        }
+      ]
+    }
+  ]
+  

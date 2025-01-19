@@ -1,0 +1,84 @@
+/* 全体のリセット */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #007acc;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.term-item {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.term-item h2 {
+  font-size: 1.8em;
+  color: #005f99;
+}
+
+.term-item p {
+  margin: 10px 0 20px;
+}
+
+.subheading {
+  margin-top: 20px;
+}
+
+.subheading h3 {
+  font-size: 1.5em;
+  color: #003366;
+}
+
+.subheading p {
+  font-size: 1em;
+  color: #444;
+}
+
+/* 画像の配置 */
+.term-image {
+  margin: 20px 0;
+}
+
+.term-image.top {
+  text-align: center;
+}
+
+.term-image.bottom {
+  text-align: center;
+}
+
+.term-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
